@@ -10,6 +10,13 @@ background-color: #191970;
     figure{}
         text-align:center;
     }
-    
+    "img_topo"{
+        width:100%
+    }
+
+    "img_corpo"{
+
+        width: 60%;
+    }
     
 }
