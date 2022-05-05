@@ -1,28 +1,35 @@
 body{
 background-color: #191970;
-
-
-
-
-color: brown
-
-
 }
+
+
+p{
+    color: aliceblue;
+}
+
+h1{
+    color: blueviolet;
+}
+
+
+
+
+
 
 
 .container{
     width:70%;
     margin: auto
-    figure{}
+}
+    figure{
         text-align:center;
     }
-    "img_topo"{
+    .img_topo{
         width:100%
     }
 
-    "img_corpo"{
+    .img_corpo{
 
         width: 60%;
     }
     
-}
