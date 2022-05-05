@@ -1,14 +1,19 @@
 body{
-background-color: #191970;
+background-color: #D3D3D3;
 }
 
 
 p{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
 }
 
-h1{
-    color: blueviolet;
+h1,h2{
+    color: rgb(226, 43, 43);
+    text-align: center;
+}
+figure{
+    text-align: center;
 }
 
 
@@ -25,7 +30,7 @@ h1{
         text-align:center;
     }
     .img_topo{
-        width:100%
+        width: 75%;
     }
 
     .img_corpo{
