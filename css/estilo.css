@@ -1,40 +1,80 @@
+        html{
+            scroll-behavior: smooth;
+        }
+    
+    
 body{
-background-color: #D3D3D3;
-}
 
-
-p{
-    color: rgb(0, 0, 0);
-    font-size: 1.5em;
-}
-
-h1,h2{
-    color: rgb(226, 43, 43);
-    text-align: center;
-}
-figure{
-    text-align: center;
-}
-
-
-
-
-
-
-
-.container{
-    width:70%;
-    margin: auto
-}
-    figure{
-        text-align:center;
-    }
-    .img_topo{
-        width: 75%;
-    }
-
-    .img_corpo{
-
-        width: 60%;
+    background-color: #D3D3D3;
     }
     
+    .menu, footer{
+        background-color: rgba(56, 165, 165, 0.3);
+        padding: 2%;
+      
+    }
+
+    .itens_Menu{
+        padding-top: 2%;
+        line-height: 1.5em;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    .itens_Menu a:visited, .itens_Menu a:link{
+        color: #FFDEAD;
+        text-decoration: none;
+        font-weight: bolder;
+      
+      }
+      .itens_Menu a:hover{
+        background-color: rgba(9, 7, 6, 0.4);
+        padding: 0.8%;
+      }
+
+      .itens_Menu a:active{
+        color: black;
+      }
+    
+    p{
+        color: rgb(0, 0, 0);
+        font-size: 1.5em;
+        line-height: 1.3;
+        text-align: justify;
+        text-indent: 40px;
+    }
+       
+    
+    h1,h2{
+        color: rgb(226, 43, 43);
+        text-align: center;
+    }
+    figure{
+        text-align: center;
+    }
+    
+    
+    .container{
+        width:70%;
+        margin: auto
+    }
+        figure{
+            text-align:center;
+        }
+        .img_topo{
+            width: 90%;
+        }
+    
+        .img_corpo{
+    
+            width: 60%;
+        }
+
+        a:link{
+            color: #FFDEAD;
+        }
+        
+        footer{
+            background-color: dimgray;
+            padding: 2%;
+            
+        }
