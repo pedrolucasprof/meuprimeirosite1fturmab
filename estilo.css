@@ -1,4 +1,10 @@
-        html{
+ @font-face {
+    font-family: 'Share_Tech_Mono';
+  src: url(../fonts/ShareTechMono-Regular.ttf);
+ }
+ 
+ 
+ html{
             scroll-behavior: smooth;
         }
     
@@ -41,6 +47,7 @@ body{
         line-height: 1.3;
         text-align: justify;
         text-indent: 40px;
+        font-family: 'Alumni Sans Inline One', cursive;
     }
        
     

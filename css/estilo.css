@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Uchen';
+    src: url(../fonts/PermanentMarker-Regular.ttf);
+  }
         html{
             scroll-behavior: smooth;
         }
@@ -48,6 +52,7 @@ body{
         color: rgb(226, 43, 43);
         text-align: center;
         margin-bottom: 2%;
+        font-family:'PermanentMarker-Regular', cursive
     }
     figure{
         text-align: center;
