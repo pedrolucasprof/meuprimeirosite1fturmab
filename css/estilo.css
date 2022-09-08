@@ -68,6 +68,9 @@ body{
         }
 
         header{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
           position: fixed;
           width: 100%;
         }
@@ -245,3 +248,32 @@ body{
                   margin-top: 0;
                 }
               }
+
+              @media screen and (min-width:601px) {
+
+                header{ 
+
+                  background-color: darkgrey;
+                  flex-direction: row;
+
+
+                }
+
+                .itens_Menu{
+
+                  position:absolute;
+                  right: 6%;
+                  top: 45%;
+                  width: 70%
+                }
+
+                .itens_Menu ul li {
+
+                   display: inline;
+                   margin-left: 1%;
+
+                }
+                
+              }
+                
+              
