@@ -66,6 +66,21 @@ body{
         figure{
             text-align:center;
         }
+
+        header{
+          position: fixed;
+          width: 100%;
+        }
+
+        .logo{
+          text-align: center ;
+        }
+
+        .img_logo{
+          width: 10%;
+         
+        }
+
         .img_topo{
             width: 100%;
         }
